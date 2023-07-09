@@ -1,0 +1,780 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Raleway, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+
+  }
+
+header {
+    width: 100%;
+    height: 80px;
+    border: 1px solid red;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.headerLeft {
+    width: 40%;
+    height: 100%;
+    float: left;
+    border: 1px solid red;
+}
+
+.headerRight {
+    width: 60%;
+    height: 100%;
+    float: left;
+    border: 1px solid red;
+}
+
+.headerLogo {
+    width: 400px;
+    height: 70px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.headerLogo>a {
+    color: black;
+}
+
+.headerLogo>a>h1 {
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.navBar>li {
+    float: left;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+
+.navBar>li>a {
+    color: black;
+    text-transform: uppercase;
+}
+
+.navBar>li:hover>a {
+    color: #735cf9;
+    transition: 0.5s;
+}
+
+.sectionTop {
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+    background-image: url(./img/Background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionTopText {
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+}
+
+.sectionTopText>h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.sectionTopText>p {
+    margin-top: 20px;
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 550px;
+    background-color: #735cf9;
+    padding-top: 14px;
+    transition: 0.5s;
+    float: left;
+}
+
+.button1:hover {
+    background-color: #735cf977;
+
+}
+
+.button1>a {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 56px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.button2 {
+    width: 200px;
+    height: 50px;
+    border: 1.5px solid white;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #ffffff00;
+    padding-top: 14px;
+    transition: 0.5s;
+    text-align: center;
+    float: left;
+}
+
+.button2>a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.button2:hover {
+    background: #fff;
+}
+
+.button2:hover>a {
+    color: #222;
+}
+
+.sectionMidTop {
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+}
+
+.sectionMidTopLeft {
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    float: left;
+}
+
+.sectionMidTopRight {
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    float: left;
+}
+
+.notebookImg {
+    width: 700px;
+    height: 550px;
+    border: 1px solid red;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.notebookImg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2 {
+    width: 60%;
+    height: 150px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.section2>p {
+    margin-top: 20px;
+    color: #8c979e;
+    font-weight: 400;
+}
+
+.section2>h1 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #0e1015;
+}
+
+.More {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #735cf9;
+    padding-top: 14px;
+    transition: 0.5s;
+    float: left;
+}
+
+.More>a {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 56px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.More:hover {
+    background-color: #5b4da8;
+    transition: 0.5s;
+}
+
+.sectionMidBottom {
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+}
+
+.SeeIt {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 40px;
+    background-color: #735cf9;
+    padding-top: 14px;
+    transition: 0.5s;
+    float: left;
+}
+
+.SeeIt>a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.SmallParalax {
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+    background-image: url(./img/photo-1452723312111-3a7d0db0e024.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+.SmallParalaxText {
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.SmallParalaxText>h1 {
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 400;
+}
+
+.SmallParalaxText>p {
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.MoreInfo {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 40px;
+    background-color: #735cf9;
+    margin-left: 650px;
+    padding-top: 14px;
+    transition: 0.5s;
+    float: left;
+}
+
+.MoreInfo>a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.SeeIt:hover {
+    background-color: #5b4da8;
+    transition: 0.5s;
+}
+
+.MoreInfo:hover {
+    background-color: #5b4da8dd;
+    transition: 0.5s;
+}
+
+.section3 {
+    width: 100%;
+    height: 1203px;
+    border: 1px solid red;
+}
+
+.Download {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-left: 640px;
+    background-color: #735cf9;
+    padding-top: 14px;
+    transition: 0.5s;
+    float: left;
+}
+
+.Download>a {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 43px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.img {
+    width: 1200px;
+    height: 852px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.Download:hover {
+    background-color: #5b4da8;
+    transition: 0.5s;
+}
+
+.Projects {
+    width: 100%;
+    height: 1070px;
+    border: 1px solid red;
+    background-color: #0e1015
+}
+
+
+
+.ProjectsText {
+    width: 60%;
+    height: 150px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.ProjectsText>p {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.ProjectsText>h1 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.ProjectsImgs {
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+}
+
+.imgs {
+    width: 360px;
+    height: 262px;
+    border: 1px solid red;
+    float: left;
+    margin-top: 3px;
+    margin-left: 6px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.imgs > p{
+    position: relative;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    font-size: 23px;
+    transform: translateY(-30px);
+}
+
+.imgs:hover > p{
+    transform: translateY(-130px);
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.imgs:hover{
+    opacity: 0.6;
+}
+
+.imgs>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.Customers {
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+    background-image: url(./img/background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.CustomersText {
+    width: 60%;
+    height: 160px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.CustomersText>p {
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.CustomersText>h1 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid red;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.Photo>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.Name {
+    width: 150px;
+    height: 30px;
+    border: 1px solid red;
+    margin-left: 675px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Name>strong {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Clients {
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.TextBox {
+    width: 350px;
+    height: 40px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.TextBox>h1 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+
+.Logos {
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+
+.Logos>a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.Like {
+    width: 100%;
+    height: 220px;
+    border: 1px solid red;
+    background-color: #f5f5f5;
+}
+
+.Box {
+    width: 700px;
+    height: 40px;
+    border: 1px solid red;
+    margin-left: 200px;
+    margin-top: 85px;
+    float: left;
+}
+
+.Box>h1 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+
+.DownloadNow {
+    width: 250px;
+    height: 55px;
+    border: 1px solid red;
+    margin-top: 76px;
+    margin-left: 150px;
+    background-color: #735cf9;
+    padding-top: 14px;
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+}
+
+.DownloadNow>a {
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.DownloadNow:hover {
+    background-color: #5b4da8;
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    background-color: #0e1015;
+}
+
+.Boxik {
+    width: 300px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 130px;
+    float: left;
+}
+
+.Boxik>h1 {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #8c979e;
+    font-weight: 400;
+}
+
+.Boxik > h1 > a{
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Boxik > h1 > a:hover{
+    color: #735cf9;
+}
+
+.btn-sm {
+    min-height: 30px;
+    font-size: 11px;
+    line-height: 27px;
+    min-width: 0;
+}
+
+.back-to-top {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    height: 36px;
+    width: 36px;
+    border: 1px solid white;
+    margin-top: 250px;
+    float: right;
+    color: white;
+    text-align: center;
+}
+
+footer>a {
+    transition: 1.5s;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+
+
+.social-icons {
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin-top: 110px;
+    float: right;
+    margin-right: 70px;
+}
+
+.social-icons a {
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+
+}
+
+.dropDown{
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    transition: 0.5s;
+    top: 100px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropDown:hover > .menu{
+    visibility: visible;
+    opacity: 1;
+    top: 20px;
+}
+
+.menu > li{
+    padding-left: 50px;
+    padding-top: 13px;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: black;
+}
+.menu2 > li > a{
+    text-decoration: none;
+    color: black;
+}
+.menu3 > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu3 > li:hover > a{
+    color: #5b4da8;
+}
+.menu2 > li:hover > a{
+    color: #5b4da8;
+}
+.menu > li:hover > a{
+    color: #5b4da8;
+}
+
+
+.dropDown2{
+    position: relative;
+}
+
+.menu2{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    transition: 0.5s;
+    top: -5px;
+    left: 97px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.dropDown2:hover > .menu2{
+    visibility: visible;
+    opacity: 1;
+    top: -14px;
+}
+
+.menu2 > li{
+    padding-left: 60px;
+    padding-top: 13px;
+}
+
+.dropDown{
+    position: relative;
+}
+
+.menu3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transition: 0.5s;
+    top: 100px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropDown:hover > .menu3{
+    visibility: visible;
+    opacity: 1;
+    top: 25px;
+}
+
+.menu3 > li{
+    padding-left: 10px;
+    padding-top: 22px;
+}
+
+.menu > li:hover{
+    background-color: #8c979e77;
+}
+.menu2 > li:hover{
+    background-color: #8c979e77;
+}
+.menu3 > li:hover{
+    background-color: #8c979e77;
+}
